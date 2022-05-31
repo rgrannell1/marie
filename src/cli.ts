@@ -1,3 +1,6 @@
+#!/bin/sh
+//bin/true; exec /home/rg/.deno/bin/deno run -A "$0" "$@"
+
 import {Marie} from "./marie.ts";
 import docopt from "https://deno.land/x/docopt@v1.0.1/dist/docopt.mjs";
 
