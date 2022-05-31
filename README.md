@@ -22,21 +22,6 @@ This document is itself valid Marie markup, and encodes a small semantic graph d
                 :Deno
 ```
 
-Given the basename `https://mydomain.xyz/t/` as configuration, it outputs the following [RDF N-Quads](https://www.w3.org/TR/n-quads/).
-
-```
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/plain%20text> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/markdown> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/any%20file> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/outputs> <https://mydomain.xyz/t/rdf> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/outputs> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/nquads> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/json> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/text> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/written-in> .
-<https://mydomain.xyz/t/marie> <https://mydomain.xyz/t/inputs> <https://mydomain.xyz/t/Deno> .
-```
-
 ## License
 
 The MIT License
